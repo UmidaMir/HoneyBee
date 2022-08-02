@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Kodchasan';
+}
+.nav-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+}
+.nav-link{
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.nav-link:hover{
+    font-weight: 700;
+}
+
+.header-content{
+    background: url('../images/header.png') no-repeat center center / cover;
+    height: 865px;
+    margin: 0 50px;
+    border-radius: 30px;
+}
+.header-title-1{
+    padding-top: 182px;
+    margin-left: 177px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    color: #0B0B0B;
+}
+.header-title-2{
+    margin-left: 275px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    color: #0B0B0B;
+}
+.header-title-3{
+    margin-left: 177px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    color: #0B0B0B;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 70px;
+    margin-left: 177px;
+    gap: 30px;
+}
+.header-button{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 18px 50px;
+    transition: 0.5s;
+}
+.header-button:hover{
+    background: #000000;
+    color: #fff;
+}
+.shops-trusted{
+    margin: 130px 0;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    color: #000000;
+    padding-bottom: 50px;
+    margin-top: 130px;
+}
+.shops-list{
+    display: flex;
+    justify-content: space-between;
+}
+.main-content-1{
+    display: flex;
+    align-items: center;
+    margin: 0 97px;
+}
+.text-1{
+    margin-left: 32px;
+}
+.main-title-1{
+    width: 548px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 145%;
+    color: #000000;
+}
+.description-1{
+    width: 516px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.main-link-1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    background: #E68311;
+}
+.main-content-2{
+    margin: 101px 97px 0 97px;
+    display: flex;
+    align-items: center;
+}
+.text-2{
+    margin-right: 5px;
+}
+.main-title-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.our-product{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    color: #000000;
+}
+.see{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration-line: underline;
+    color: #E58211;
+}
+.main-content-3{
+    display: flex;
+    margin-bottom: 130px;
+    gap: 30px;
+}
+.text-3{
+    display: flex;
+    padding: 45px 0 10px 30px;
+    background: #fff0e0;
+    width: 558px;
+    height: 305px;
+}
+.main-title-3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #000000;
+}
+.description-2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 302px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+.main-link-2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E58211;
+    padding: 10px 25px;
+    border: #E58211 solid 2px;
+}
+.basswood{
+    margin-left: 61px;
+}
+.footer{
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    padding: 45px 228px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+    width: 269px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+}
+.f-links{
+    margin-left: 40px;
+}
+
+
+
